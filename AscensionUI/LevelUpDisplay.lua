@@ -680,7 +680,7 @@ function LU.OnLevelUp(level)
     LU.Frame:Show()
     LU.DataInQueue = GenerateLevelUpData()
     LU.Frame.FadeIn:Play()
-    LU.Frame.Text:SetText("Level "..level)
+    LU.Frame.Text:SetText("Niveau "..level)
 end
 
 function LU.Stop()
